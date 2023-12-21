@@ -197,32 +197,28 @@ body{
 
 
 @media(min-width:1024px){
+    /*index*/
 
     .header__titulo{
         font-size: 2rem;
     }
+    .header__logo{
+
+        max-width: 200px;
+    }
     .idioma {
         font-size: 2rem;
+        display: none;
     }
     .idioma__item{
         font-size: 2rem;
+        display: none;
 
     }
     
-
-
-
-
-
-
-
-
     .Noticias{
         display: flex;
-        flex-direction: column;
-        
-        
-        
+        flex-direction: column;   
 
     }
 
@@ -270,6 +266,10 @@ body{
         font-size: 2rem;
     }
 
+    .footer__logo{
+        max-width:100px;
+    }
+
     .suscribirse__titulo{
         font-size: 1.5rem;
     }
@@ -278,29 +278,59 @@ body{
         font-size: 1.2rem;
     }
 
+    .nav__link{
+        font-size: 1.5rem;
+    }
+    
+    .searchbar{
+        font-size: 1.5rem;
+    }
 
+    .searchbar__boton{
+        font-size: 1.3rem;
+    }
+    .searchbar__buscar{
+        font-size: 1.5rem;
+    }
 
+    /*Analisis de Mercado*/
 
+    .Analisis{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
+    }
+    .Analisis__article{
+        font-size: 2rem;
+    }
+
+    .Analisis__imagen{
+        width: 400px;
+    }
+    .Analisis__titulo{
+        font-size: 2rem;
+    }
     
 
-    
+    .Analisis__Noticia{
 
-    
+        font-size: 2rem;
+        
 
+    }
 
-   
+    .Analisis__parrafo{
+        font-size: 1.2rem;
+    }
+    hr{
+        gap: 1rem;
+        width: 100%;
+    }
         
     }
         
 
-    }
-    
-
-    
-    
-
-    }
     
     
 
