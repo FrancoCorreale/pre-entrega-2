@@ -1,0 +1,14 @@
+@media(min-width:1024px){
+    
+nav .nav__lista{
+    display: grid;
+    grid-template-columns:repeat(5,1fr);
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.nav__link{
+    font-size: 1.5rem;
+}
+
+}

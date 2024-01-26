@@ -1,0 +1,15 @@
+@media(min-width:320px) and (max-width:1023px){
+    
+.header__contenedor{
+    display: flex;
+    flex-direction: column;
+}
+
+.header__titulo{
+    font-size: 0.9rem;
+}
+.header__logo{
+    width: 45%;
+    filter:drop-shadow(5px 5px 4px black)
+}
+}

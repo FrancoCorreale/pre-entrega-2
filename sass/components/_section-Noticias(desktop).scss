@@ -1,0 +1,33 @@
+@media(min-width:1024px){
+    
+section .Noticias__articulo{
+    display: grid; 
+    grid-template-columns: 1fr;
+    
+    img .Noticias__imagen{
+        grid-column: -2 / -1 !important;
+    }
+}
+
+.Noticias__titulo--UltimasNoticias{
+    font-size: 2.3rem;
+    text-align: center;
+}
+
+.Noticias__imagen{
+    width: 600px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.Noticias__titulo{
+    font-size: 2rem;
+}
+
+.Noticias__parrafo{
+    font-size: 1.3rem;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+}

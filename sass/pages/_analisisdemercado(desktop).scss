@@ -1,0 +1,37 @@
+@media(min-width:1024px){
+    
+.Analisis__article{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+.Analisis__article{
+    font-size: 2rem;
+}
+
+.Analisis__imagen{
+    width: 600px;
+    margin-left: 30px;
+}
+
+.Analisis__titulo{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.Analisis__Noticia{
+    font-size: 2rem;
+}
+
+.Analisis__parrafo{
+    font-size: 1.2rem;
+    margin-left: 30px;
+}
+
+hr{
+    gap: 1rem;
+    width: 100%;
+}
+
+}
