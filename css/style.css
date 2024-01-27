@@ -33,7 +33,7 @@ body {
     flex-direction: column;
   }
   .header__titulo {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
   .header__logo {
     width: 45%;
@@ -107,7 +107,7 @@ body {
   .EleccionDe__titulo {
     margin: 2%;
   }
-  .EleccionDe__titulo {
+  .EleccionDe__titulo__titulo {
     font-size: 2rem;
   }
 }
@@ -179,9 +179,11 @@ body {
 @media (min-width: 1024px) {
   .idioma {
     font-size: 2rem;
+    text-align: end;
   }
   .idioma__item {
     font-size: 2rem;
+    text-align: end;
   }
 }
 @media (min-width: 1024px) {
@@ -245,15 +247,13 @@ body {
     justify-content: center;
     gap: 1rem;
   }
-  .EleccionDe__titulo {
+  .EleccionDE__titulo {
     font-size: 1.5rem;
   }
 }
 @media (min-width: 1024px) {
   .footer {
     background-color: darkslategray;
-  }
-  .footer {
     font-size: 1.5rem;
   }
   .footer__titulo {

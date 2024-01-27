@@ -4,11 +4,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 1rem;
-}
+    gap:$font-size;
 
-.EleccionDe__titulo{
-    font-size: 1.5rem;
+    &__titulo{
+        font-size: 1.5rem;
+    }
 }
 
 }

@@ -2,12 +2,12 @@
 
 .idioma {
     font-size: 2rem;
-    
-}
+    text-align: end;
 
-.idioma__item{
-    font-size: 2rem;
-    
+    &__item{
+        font-size: 2rem;
+        text-align: end;
+    }
 }
 
 }

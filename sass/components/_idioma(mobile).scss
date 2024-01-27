@@ -4,11 +4,13 @@
     display: flex;
     justify-content: end;
     font-size: 0,8rem;
+
+    &__item{
+        display: flex;
+        justify-content: end;
+        font-size: 0,5rem;   
+    }
     
 }
-.idioma__item{
-    display: flex;
-    justify-content: end;
-    font-size: 0,5rem;   
-}
+
 }
